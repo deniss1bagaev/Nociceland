@@ -1,0 +1,465 @@
+*,*::after,*::before{ 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: bisque;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 1px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    
+}
+
+.head-left{
+    width: 50%;
+    margin-top: 15px;
+}
+
+.head-right{
+    width: 50%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.head-right a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.inside a{
+    margin-left: 30px;
+}
+
+.inside-main{
+    height: 500px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.inside-main a{
+    margin-top: 20px;
+}
+
+.inside-one{
+    width: 50%;
+}
+
+.inside-one img{
+    width: 100%;
+    height: 100%;
+}
+
+.inside-two{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.inside-two h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.inside-two h2{
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.inside-two p{
+    color: #666666;
+    
+}
+
+.inside-two h4{
+    margin-top: 60px;
+    margin-left: 30px
+}
+
+.inside-main-one{
+    display: block;
+    height: 950px;  
+}
+
+.inside-main-one p{
+    margin-top: 20px;
+}
+
+.inside-main-one h2{
+    margin-top: 25px;
+}
+
+.inside-main-one h4{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.main-one{
+    display: flex;
+    height: 50%;
+    width: 100%;  
+}
+
+.main-one-first{
+    width: 30%;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-one-first p{
+    color: #999999;
+}
+
+.main-one-second{
+    width: 30%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-one-second p{
+    color: #999999;
+}
+
+.main-one-third{
+    width: 30%;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-one-third p{
+    color: #999999;
+}
+
+.main-two{
+    height: 50%;
+    width: 100%;  
+    text-transform: uppercase;
+    display: flex;
+}
+
+.main-two-first{
+    width: 30%;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-two-first p{
+    color: #999999;
+}
+
+.main-two-second{
+    width: 30%;
+    display: block;
+    text-transform: uppercase;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+.main-two-second p{
+    color: #999999;
+}
+
+.main-two-third{
+    width: 30%;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-two-third p{
+    color: #999999;
+}
+
+.inside-main-two{
+    display: block;
+    height: 1000px;
+}
+
+.inside-main-two p{
+    color: #999999;
+    margin-top: 25px;
+}
+
+.inside-main-two h2{
+    margin-top: 20px;
+}
+
+.inside-main-two h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.inside-main-two-one{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.inside-main-two-one img{
+    width: 285px;
+    height: 187px;
+}
+
+.inside-main-two-one-first{
+    width: 22%;
+}
+
+.inside-main-two-one-second{
+    width: 22%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.inside-main-two-one-third{
+    width: 22%;
+    margin-right: 3%;
+}
+
+.inside-main-two-one-fourth{
+    width: 22%;
+}
+
+.inside-main-two-two{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.inside-main-two-two img{
+    width: 285px;
+    height: 187px;
+}
+
+.inside-main-two-two-first{
+    width: 22%;
+}
+
+.inside-main-two-two-second{
+    width: 22%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.inside-main-two-two-third{
+    width: 22%;
+    margin-right: 3%;
+}
+
+.inside-main-two-two-fourth{
+    width: 22%;
+}
+.button{
+    margin-left: 42%;
+    width: 205px;
+    height: 54px;
+}
+
+.button p{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.inside-main-two-three{
+    width: 100%;
+    height: 1200px;
+}
+
+.inside-main-two-three p{
+    color: #999999;
+}
+
+.inside-main-two-three p{
+    margin-top: 25px;
+}
+
+.inside-main-two-three h2{
+    margin-top: 25px;
+}
+
+.inside-main-two-three h4{
+    margin-top: 25px;
+}
+
+.inside-main-two-three-one{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+.inside-main-two-three-one-one{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.inside-main-two-three-one-two{
+    width: 45%;
+}
+
+.inside-main-two-three-first{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.inside-main-two-three-first-one{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: #141414;
+}
+
+.footer p{
+    margin-left: 15px;
+}
+
+.footer-one{
+    display: flex;
+}
+
+.footer-one h1{
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.footer-one p{
+    color: #666666;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.main-footer{
+    display: flex;
+}
+
+.main-footer-one{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.main-footer-one p{
+    margin-bottom: 20px;
+}
+
+.main-footer-one-first{
+    display: flex;
+    height: 50%;
+}
+
+.main-footer-one-first p{
+    width: 100%;
+}
+
+.main-footer-one-first a{
+    margin-bottom: 15px;
+}
+
+.main-footer-one-first-one{
+    height: 50%;
+}
+
+.main-footer-one-first-two{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-footer-one-first-three{
+    margin-right: 20px;
+}
+
+.web{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main-footer-one-second{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 20%;
+}
+
+.main-footer-one-second-one{
+    display: block;
+    flex-direction: column;
+    width: 30%;
+}
+
+.rer{
+    display: block;
+}
+
+.main-footer-one-second-two{
+    display: block;
+    width: 30%;
+}
+
+.main-footer-one-second-three{
+    width: 30%;
+}
+
+.page{
+    width: 100%;
+    margin-right: 15px;
+}
+
+.main-footer p{
+    color: #666666;
+}
+
+.main-footer a{
+    color: #FFFFFF;
+}
+
+.main-footer-two{
+    width: 50%;
+    display: block;
+}
+.main-footer-two h1{
+    color: #666666;
+}
+
+.main-footer-two-one{
+    display: flex;
+}
+
+.main-footer-two-two{
+    width: 70px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.main-footer-two-two h4{
+    margin-top: 11.5px;
+    display: flex;
+    justify-content: center;
+}
